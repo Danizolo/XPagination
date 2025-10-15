@@ -106,7 +106,8 @@ function App() {
           </button>
 
           <span>
-            Page <span>{currentPage}</span> of <span> {totalPages} </span>
+            Page <span>{Number(currentPage)}</span> of{" "}
+            <span> {Number(totalPages)} </span>
           </span>
 
           <button
