@@ -64,9 +64,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="header">
-          X-Pagination
-      </div>
+      <div className="header">X-Pagination</div>
       <div className="tableData">
         <h1>Employee Data</h1>
 
@@ -108,7 +106,7 @@ function App() {
           </button>
 
           <span>
-            Page {currentPage} of {totalPages}
+            Page <span>{currentPage}</span> of <span> {totalPages} </span>
           </span>
 
           <button
