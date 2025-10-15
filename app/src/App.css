@@ -1,0 +1,52 @@
+.tableData {
+  width: 90%;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.handlingPagination{
+  padding: 10px;
+}
+
+.tableContent {
+  border: 1px solid gray;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: lightgray;
+
+}
+
+.header{
+  height: 50px;
+  background-color: green;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+.previousButton,
+.nextButton {
+  padding: 10px;
+  width: 100px;
+  background-color: green;
+  border: 1px solid lightblue;
+  color: white
+
+}
+
+span{
+  margin: 10px;
+}
+
+.previousButton:hover, .nextButton:hover {
+  border: 1px solid deepskyblue;
+}
